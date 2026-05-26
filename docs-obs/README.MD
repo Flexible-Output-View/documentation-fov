@@ -52,11 +52,13 @@ Performs critical cleanup of the output container mappings. It detaches all exis
 
 Because multi-track encoding introduces significant resource and architectural constraints compared to basic vanilla streaming, keep the following rules in mind:
 
-> [!Warning] Hardware Resource Constraints
+> [!WARNING]
+> Hardware Resource Constraints
 > * **Encoder Thresholds:** Every independent track requires its own active encoder pipeline. **Always utilize hardware encoding primitives (NVENC, AMF, or QuickSync)**. Attempting to run multiple concurrent streams on software engines (such as standard `x264`) will cause instantaneous CPU exhaustion and massive frame drops.
 > * **Bitrate Apportionment:** Your target streaming bitrate configuration is applied universally to **each individual track**. If your output bitrate is set to $2500\text{ kbps}$ and your scene contains 4 video layers, your total bandwidth allocation scales linearly up to $10000\text{ kbps}$ upload overhead (excluding audio tracks). Adjust configurations to accommodate network constraints.
 
-> [!Note] Scene Management Limitations
+> [!NOTE]
+> Scene Management Limitations
 > * **Topology Locks:** The dynamic multi-track multiplexer layout is locked the moment transmission begins. **Adding new audio inputs or modifying video sources while a stream is actively live is strictly blocked.** Build out all scene structures completely before initiating your broadcast.
 > * **Fixed Mixers:** User modifications inside the OBS Advanced Audio Properties grid will be overwritten or ignored. Audio sources are mapped on a strict 1:1 basis automatically based on their addition sequence.
 
