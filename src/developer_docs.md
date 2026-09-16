@@ -4,7 +4,7 @@ Welcome to the Developer Documentation. This guide provides comprehensive techni
 
 Below is an index of the technical documentation available in this section:
 
-- [Backend Overview](./docs-backend/README.md)
+- [Backend Overview](./docs-backend/index.html)
     - [Architecture](./docs-backend/ARCHITECTURE.md)
     - [Development Guide](./docs-backend/DEVELOPMENT.md)
     - [Deployment](./docs-backend/DEPLOYMENT.md)
@@ -15,4 +15,4 @@ Below is an index of the technical documentation available in this section:
     - [QA Setup Summary](./docs-backend/QA_SETUP_SUMMARY.md)
     - [Quick Reference](./docs-backend/QUICK_REFERENCE.md)
     - [Changelog](./docs-backend/CHANGELOG.md)
-- [OBS Documentation](./docs-obs/README.MD)
+- [OBS Documentation](./docs-obs/index.html)

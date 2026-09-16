@@ -68,7 +68,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - **Nodemon** for automatic restart on file changes
 
 #### Documentation
-- Comprehensive README.md with installation, configuration, and API documentation
+- Comprehensive readme.md with installation, configuration, and API documentation
 - ARCHITECTURE.md explaining system design and technology justification
 - DEVELOPMENT.md with setup, workflow, and contribution guidelines
 - DEPLOYMENT.md covering Docker, Docker Compose, and cloud platforms
