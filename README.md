@@ -1,6 +1,10 @@
 # Project FOV: Personalize Your Streaming Experience
 
-Welcome to the central documentation for **FOV (Flexible Output View)**.
+> [!Note]
+> **Looking for the complete, interactive documentation?**
+>
+> Visit our official documentation at: [https://flexible-output-view.github.io/documentation-fov](https://flexible-output-view.github.io/documentation-fov)
+
 
 ## What is FOV?
 Have you ever watched a live stream where the music was too loud, the webcam was blocking the game, or the chat interface was in the way? Traditionally, viewers are stuck with whatever layout the streamer chooses.
@@ -27,8 +31,5 @@ The project is built on three main pillars:
 *   **The Backend API:** The "brain" of the operation that manages users, categories, and the complex media pipelines required for multi-track delivery.
 *   **The Web Platform:** An intuitive website where spectators discover content and interact with the personalized video player.
 
-
 ## Documentation
 This repository contains the entire documentation for the FOV project.
-If you want to contribute, please read the pinned Github discussion of the Github organization.
-
