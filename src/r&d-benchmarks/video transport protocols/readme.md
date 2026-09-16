@@ -81,11 +81,11 @@ The choice of HLS is due to browser limitations, as they support very few stream
 WebRTC, although a strong contender, would likely present scalability issues, while DASH is much less widespread.
 
 ## Consulted Resources
-- https://getstream.io/blog/protocol-comparison/
-- https://srtminiserver.com/tpost/g0p2vmk331-low-latency-amp-real-time-streaming-srt
-- https://medium.com/@contact_45426/rist-vs-srt-a-comprehensive-comparison-53b20b22464b
-- https://medium.com/@n20/hls-rtmp-dash-webrtc-and-more-a-simple-guide-to-streaming-protocols-98cbabcd599f
-- https://static.vsf.tv/activity_groups/RIST_poster_for_VidTrans2018Feb25.pdf
-- https://www.vmix.com/download/srt_alliance_deployment_guide.pdf
-- https://medium.com/@psantana5_/guide-running-rtmp-hls-with-docker-and-ffmpeg-769c3f14462e
-- https://ressources.camexia.org/diffusion-dun-flux-video-en-direct-sur-le-web/
+- [https://getstream.io/blog/protocol-comparison/](https://getstream.io/blog/protocol-comparison/)
+- [https://srtminiserver.com/tpost/g0p2vmk331-low-latency-amp-real-time-streaming-srt](https://srtminiserver.com/tpost/g0p2vmk331-low-latency-amp-real-time-streaming-srt)
+- [https://medium.com/@contact_45426/rist-vs-srt-a-comprehensive-comparison-53b20b22464b](https://medium.com/@contact_45426/rist-vs-srt-a-comprehensive-comparison-53b20b22464b)
+- [https://medium.com/@n20/hls-rtmp-dash-webrtc-and-more-a-simple-guide-to-streaming-protocols-98cbabcd599f](https://medium.com/@n20/hls-rtmp-dash-webrtc-and-more-a-simple-guide-to-streaming-protocols-98cbabcd599f)
+- [https://static.vsf.tv/activity_groups/RIST_poster_for_VidTrans2018Feb25.pdf](https://static.vsf.tv/activity_groups/RIST_poster_for_VidTrans2018Feb25.pdf)
+- [https://www.vmix.com/download/srt_alliance_deployment_guide.pdf](https://www.vmix.com/download/srt_alliance_deployment_guide.pdf)
+- [https://medium.com/@psantana5_/guide-running-rtmp-hls-with-docker-and-ffmpeg-769c3f14462e](https://medium.com/@psantana5_/guide-running-rtmp-hls-with-docker-and-ffmpeg-769c3f14462e)
+- [https://ressources.camexia.org/diffusion-dun-flux-video-en-direct-sur-le-web/](https://ressources.camexia.org/diffusion-dun-flux-video-en-direct-sur-le-web/)

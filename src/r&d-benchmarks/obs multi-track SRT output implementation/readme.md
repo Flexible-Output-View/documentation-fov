@@ -243,8 +243,8 @@ You must also ensure that the source video dimensions are aligned before attempt
 This stream can then be directly received by our video pipeline backend for conversion and broadcasting to viewers.
 
 Consulted Resources:
-- TSDuck (https://tsduck.io/)
-- Introduction to MPEG-TS (https://tsduck.io/docs/mpegts-introduction.pdf)
-- MPEG transport stream (https://en.wikipedia.org/wiki/MPEG_transport_stream)
-- OBS Source code & OBS FFmpeg wrapper (https://github.com/obsproject/obs-studio/tree/release/32.0/plugins/obs-ffmpeg)
-- MPEG-2: Understanding the Transport Stream Structure (https://medium.com/@amitdogra70512/mpeg-2-understanding-the-transport-stream-structure-dcf95b2b550b)
+- [TSDuck](https://tsduck.io/)
+- [Introduction to MPEG-TS](https://tsduck.io/docs/mpegts-introduction.pdf)
+- [MPEG transport stream](https://en.wikipedia.org/wiki/MPEG_transport_stream)
+- [OBS Source code & OBS FFmpeg wrapper](https://github.com/obsproject/obs-studio/tree/release/32.0/plugins/obs-ffmpeg)
+- [MPEG-2: Understanding the Transport Stream Structure](https://medium.com/@amitdogra70512/mpeg-2-understanding-the-transport-stream-structure-dcf95b2b550b)
