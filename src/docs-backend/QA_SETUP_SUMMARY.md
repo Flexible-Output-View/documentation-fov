@@ -42,7 +42,7 @@ The FOV Backend now includes a **comprehensive quality assurance infrastructure*
 
 | File | Content |
 |------|---------|
-| [README.md](README.md) | **Complete project guide** - Overview, installation, configuration, API endpoints, deployment |
+| [readme.md](readme.md) | **Complete project guide** - Overview, installation, configuration, API endpoints, deployment |
 | [ARCHITECTURE.md](ARCHITECTURE.md) | **System design** - Technology stack justification, module structure, data flows, scaling strategy |
 | [DEVELOPMENT.md](DEVELOPMENT.md) | **Developer guide** - Setup, workflow, debugging, code standards, testing guidelines |
 | [DEPLOYMENT.md](DEPLOYMENT.md) | **Production deployment** - Docker, Docker Compose, cloud platforms, monitoring, backups |
@@ -239,7 +239,7 @@ npm run lint:fix         # Auto-fix issues
 
 ## 📖 Documentation Highlights
 
-### README.md
+### readme.md
 - Project overview and features
 - Installation & configuration steps
 - API endpoints reference
@@ -417,7 +417,7 @@ See [SECURITY.md](SECURITY.md) for detailed roadmap.
 ## 📞 Support & Resources
 
 ### Documentation
-- [README.md](README.md) - Start here!
+- [readme.md](readme.md) - Start here!
 - [DEVELOPMENT.md](DEVELOPMENT.md) - Developer setup
 - [ARCHITECTURE.md](ARCHITECTURE.md) - System design
 - [DEPLOYMENT.md](DEPLOYMENT.md) - Production deployment

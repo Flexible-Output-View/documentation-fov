@@ -114,7 +114,7 @@ backend/
 ├── .eslintrc.json            # Lint rules
 ├── jest.config.js            # Test config
 ├── package.json              # Dependencies
-├── README.md                 # Full guide
+├── readme.md                 # Full guide
 └── [DOCS]                    # Other docs
 ```
 
@@ -179,7 +179,7 @@ mysql -u admin -p
 
 | Doc | Content |
 |-----|---------|
-| [README.md](README.md) | Overview, setup, API docs |
+| [readme.md](readme.md) | Overview, setup, API docs |
 | [ARCHITECTURE.md](ARCHITECTURE.md) | System design |
 | [DEVELOPMENT.md](DEVELOPMENT.md) | Dev guide |
 | [DEPLOYMENT.md](DEPLOYMENT.md) | Production setup |

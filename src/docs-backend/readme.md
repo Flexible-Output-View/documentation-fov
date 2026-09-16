@@ -117,7 +117,7 @@ backend/
 ├── .env.example                 # Environment template
 ├── .env.production.example      # Production environment template
 ├── Dockerfile                   # Docker image definition
-├── README.md                    # This file
+├── readme.md                    # This file
 ├── ARCHITECTURE.md              # System design & justification
 ├── DEVELOPMENT.md               # Development guide
 ├── DEPLOYMENT.md                # Deployment instructions
