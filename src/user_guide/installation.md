@@ -43,8 +43,12 @@ Download the disk image from the releases page:
 ### 2. Run (Installation Optional)
 1. **Mount the DMG:** Double-click the downloaded `.dmg` file to open it.
 2. **Run or Move:** Installation is completely optional. You can run the application directly from the mounted disk image, or drag it to your **Applications** folder (or any folder like your Desktop) if you prefer to keep a local copy.
-3. **Bypassing the Security Warning:** Because the app is unsigned, macOS will block it on the first launch with a prompt stating it cannot be verified.
-   * **How to open it:** Right-click (or hold `Control` and click) the app icon wherever you are running it from, select **Open**, and click **Open** again in the pop-up warning dialog. You only need to do this the very first time you launch the application.
+3. **Bypassing the Security Warning:** Because the app is unsigned, macOS will block it on the first launch. If a direct open is blocked, you can authorize it through your system preferences:
+   * Try to open the app once (it will display a warning dialog that it cannot be opened).
+   * Open your Mac's **System Settings** and go to **Privacy & Security**.
+   * Scroll down the page until you find the notice stating that FOV was blocked from use.
+   * Click the **"Open Anyway"** button.
+   * Confirm your choice by clicking **Open** on the final prompt. You only need to perform this action the very first time you launch the application.
 
 ---
 
