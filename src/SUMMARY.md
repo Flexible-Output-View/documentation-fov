@@ -4,6 +4,7 @@
 - [User Guide](./user_guide.md)
   - [Installing && Running](./user_guide/installation.md)
   - [Start a stream](./user_guide/start_a_stream.md)
+- [Contributing to FOV](./contributing.md)
 - [Developer Documentation](./developer_docs.md)
     - [Backend Overview](./docs-backend/readme.md)
         - [Architecture](./docs-backend/ARCHITECTURE.md)
