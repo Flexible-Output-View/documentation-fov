@@ -1,22 +1,21 @@
-# OBS Studio for FOV
+# FOV Software Documentation
 
-Welcome to the documentation for the **OBS Studio for FOV** fork.
+Welcome to the documentation for **FOV Software**—a specialized fork of [OBS Studio](https://obsproject.com/) created by the [Flexible Output View team](https://github.com/Flexible-Output-View) to introduce robust multi-track streaming functionality.
 
-## Core Class Reference: `FOVSystem`
+---
 
-The engine relies on `FOVSystem` to arbitrate scene modifications, monitor input states, and reconstruct the active encoder layout on the fly.
+## Table of Contents
 
-- `void initSystem(obs_output_t *muxerOutput, obs_data_t *vSettings, obs_data_t *aSettings)`
-Configures and initializes the system state. Binds the structural output pipeline to the `ffmpeg-mpegts` muxer reference and locks in current initialization profiles.
+* **[Building FOV Software](./building.md)**
+  Step-by-step instructions for compiling and building the custom OBS Studio fork from source.
 
-- `void syncSources()`
-The runtime management loop. Executed automatically to track context mutations:
-* Enumerates all global sources utilizing `obs_enum_sources`.
-* Checks filtering flags (`OBS_SOURCE_VIDEO` and `OBS_SOURCE_AUDIO`).
-* Automatically registers active audio sources, binds them programmatically to a unique available `mixer_id`, and provisions an encoder for that isolated slot.
-* Discards elements that have transitioned to inactive statuses, releases stale encoders, and appends new tracks to the multiplex group.
+* **[Architecture](./architecture.md)**
+  Detailed breakdown of the core architectural patterns, module design, and integration layers powering multi-track source isolation.
 
-- `void updateEncoderGroup()`
-Performs critical cleanup of the output container mappings. It detaches all existing audio and video paths from the active muxer reference, registers the modified tracks under a clean unified `obs_encoder_group_t`, and remaps container tracks dynamically to clear stream PIDs.
+* **Doxygen Documentation**
+  Comprehensive API reference and low-level source code documentation generated automatically from the codebase.
 
-## Doxygen documentation
+---
+
+> [!NOTE]
+> **Looking for backend or deployment docs?** If you are working on the server-side architecture rather than the OBS fork, please return to the main [Developer Documentation](../developer_docs.md).
