@@ -2,6 +2,7 @@
 
 - [Presentation](./presentation.md)
 - [User Guide](./user_guide.md)
+  - [Installing](./docs-obs/installation.md)
 - [Developer Documentation](./developer_docs.md)
     - [Backend Overview](./docs-backend/readme.md)
         - [Architecture](./docs-backend/ARCHITECTURE.md)
