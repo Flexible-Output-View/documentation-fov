@@ -53,10 +53,10 @@ You can run one of the following build scripts depending on your needs:
 
 - `./build_portable_macOS.sh`
   - Produces a **debug build** of FOV.
-  - The executable will be located in `build_macos/rundir/Debug/bin`.
+  - The executable will be located in `build_macos/frontend/Debug`.
 - `./build_portable_macOS_release.sh`
   - Produces a **release build** of FOV.
-  - The executable will be located in `build_macos/rundir/Release/bin`.
+  - The executable will be located in `build_macos/frontend/Release`.
 
 
 ## Windows
