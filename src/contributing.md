@@ -62,16 +62,17 @@ The main internal GitHub project board is currently private (managed under the E
 
 ## Releases
 
-The FOV core team periodically creates tagged GitHub releases containing stable software packages. 
+The FOV core team periodically creates tagged GitHub releases containing stable software packages.
 * **Trigger Criteria:** A new release is triggered when sufficient improvements, bug fixes, and features have been accumulated and merged into `master` to deliver a significantly enhanced experience to users.
 
 ---
 
 ## Contribution & Feature Policy
 
-### Feature Approvals
-* New features **must be approved** by the FOV core team before any code is written or pull request is opened.
-* Before opening a PR for a new feature, you must create a **GitHub issue** or start a thread in **GitHub Discussions** to propose and vet the idea.
+### Feature Submissions & Workflow
+* Contributors are free to develop features or fixes and open a pull request directly whenever they are ready.
+* **Feature Requests & Questions:** You can discuss potential feature requests or ask questions directly to the team via [GitHub Discussions](https://github.com/orgs/Flexible-Output-View/discussions) before or during implementation.
+* The FOV core team begins evaluating and reviewing contributions starting from the moment a pull request is opened.
 
 ### Quality Standards & Right to Reject
 * The FOV core team holds ultimate responsibility for the project's direction, stability, and code health.
