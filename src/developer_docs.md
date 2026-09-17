@@ -16,3 +16,5 @@ Below is an index of the technical documentation available in this section:
     - [Quick Reference](./docs-backend/QUICK_REFERENCE.md)
     - [Changelog](./docs-backend/CHANGELOG.md)
 - [OBS Documentation](./docs-obs/index.html)
+    - [Building FOV Software](./docs-obs/building.md)
+    - [Architecture](./docs-obs/architecture.md)
