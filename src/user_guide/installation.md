@@ -10,7 +10,7 @@ You can download all official versions from the [obs-studio-fov GitHub Releases 
 
 ### 1. Download
 Download the Flatpak package from the releases page:
-* **File:** `FOV-linux-x64-release.flatpak`
+* **File:** [FOV-linux-x64-release.flatpak](https://github.com/Flexible-Output-View/obs-studio-fov/releases/latest/download/FOV-linux-x64-release.flatpak)
 
 ### 2. Install & Run
 * **Via GUI:** Open the downloaded file using your desktop's package manager.
@@ -30,7 +30,7 @@ flatpak run com.flexible_output_view.FOV
 
 ### 1. Download
 Download the disk image from the releases page:
-* **File:** `FOV-macos-arm64-release.dmg`
+* **File:** [FOV-macos-arm64-release.dmg](https://github.com/Flexible-Output-View/obs-studio-fov/releases/latest/download/FOV-macos-arm64-release.dmg)
 
 ### 2. Install & Run
 Open the downloaded `.dmg` file to run or install the application on your system.
@@ -41,7 +41,7 @@ Open the downloaded `.dmg` file to run or install the application on your system
 
 ### 1. Download
 Download the portable ZIP archive from the releases page:
-* **File:** `FOV-windows-x64-release.zip`
+* **File:** [FOV-windows-x64-release.zip](https://github.com/Flexible-Output-View/obs-studio-fov/releases/latest/download/FOV-windows-x64-release.zip)
 
 ### 2. Install & Run
 Extract the contents of the ZIP archive. You can then run the application using the executable located at:

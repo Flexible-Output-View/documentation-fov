@@ -22,7 +22,8 @@ Then, navigate to the directory `obs-studio-fov`.
 
 Run `./requirements.sh`.
 
-> **Note:** Running `requirements.sh` will install all dependencies for Debian-based distributions.
+> [!NOTE]
+> Running `requirements.sh` will install all dependencies for Debian-based distributions.
 >
 > If you are building on another distribution, please consult the official [**OBS documentation for required packages here**](https://github.com/obsproject/obs-studio/wiki/Build-Instructions-For-Linux/a1d993d4a760ad4e0ce6c7788d527597b73a8953#dependencies).
 

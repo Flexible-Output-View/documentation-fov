@@ -2,3 +2,9 @@
 title = "Flexible Output View Documentation"
 authors = ["LucasLoustalot", "Slymoz", "RaphxelS"]
 language = "en"
+
+[preprocessor.callouts]
+
+[output.html]
+git-repository-url = "https://github.com/Flexible-Output-View"
+edit-url-template = "https://github.com/Flexible-Output-View/documentation-fov/edit/main/{path}"
