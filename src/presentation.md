@@ -68,7 +68,7 @@ This repository contains the complete documentation for the FOV project.
     *   [fovapp.live](https://fovapp.live) is provided primarily as a **demo environment** to showcase project capabilities. It does not have the server capacity to operate as a full-scale, Twitch-sized production platform. Please use it responsibly, respect applicable laws, and avoid abusive or unauthorized behavior.
 
 *   🎓 **What is the context of this project?**
-    *   This project is developed as part of the **EPITECH EIP (Innovative Projects Unit)** curriculum for **Promo 2027, Toulouse**.
+    *   This project is developed as part of the **EPITECH EIP** curriculum for **Promo 2027, Toulouse, France**.
 
 *   🐛 **Where should I report bugs or request features?**
     *   You can open an issue on the relevant repository or head over to our [GitHub Discussions](https://github.com/orgs/Flexible-Output-View/discussions) page.
