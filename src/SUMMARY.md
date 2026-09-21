@@ -2,7 +2,7 @@
 
 - [Presentation](./presentation.md)
 - [User Guide](./user_guide.md)
-  - [Installing && Running](./user_guide/installation.md)
+  - [Installing & Running](./user_guide/installation.md)
   - [Start a stream](./user_guide/start_a_stream.md)
 - [Contribution Guidelines & Project Organization](./contributing.md)
 - [Developer Documentation](./developer_docs.md)
@@ -20,6 +20,7 @@
     - [FOV Software Documentation](./docs-obs/readme.md)
       - [Building FOV Software](./docs-obs/building.md)
       - [Architecture](./docs-obs/architecture.md)
+      - [Continuous Integration](./docs-obs/continuous_integration.md)
 - [Research and Development](./r&d.md)
     - [Transcoding Cost and Capacity](./r&d-benchmarks/transcoding%20cost%20and%20capacity/readme.md)
     - [Multi-track Video](./r&d-benchmarks/multi-track%20video/readme.md)
