@@ -2,7 +2,7 @@
 
 - [Presentation](./presentation.md)
 - [User Guide](./user_guide.md)
-  - [Installing && Running](./user_guide/installation.md)
+  - [Installing & Running](./user_guide/installation.md)
   - [Start a stream](./user_guide/start_a_stream.md)
 - [Contribution Guidelines & Project Organization](./contributing.md)
 - [Developer Documentation](./developer_docs.md)
