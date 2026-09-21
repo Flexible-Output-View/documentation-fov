@@ -98,3 +98,4 @@ FOV offers the following build options:
 | Option | Location | Description |
 | :--- | :--- | :--- |
 | `ENABLE_FOV_DEBUG_INGEST` | `./CMakeLists.txt:25` | Enable a debug route for FOVService. This allows the developer to redirect the output stream to a local URL that can be analyzed locally. |
+| `FOV_INTEGRATION_TEST` | `./CMakeLists.txt:26` | Build the fov-integration-test plugin. This is used to run the automated end-to-end integration test. The plugin will set up a scene with two video sources and start a stream to a locally deployed fov-web instance. |
