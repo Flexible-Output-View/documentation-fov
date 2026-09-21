@@ -10,7 +10,7 @@ Verifies that every commit message adheres to our formatting guidelines.
 
 * **Triggers:** Runs on every push across all branches.
 * **Runner:** GitHub-hosted runners.
-* **Target:** Checks compliance with our [commit standard](../contributing.md#Commits).
+* **Target:** Checks compliance with our [commit standard](../contributing.md#commits).
 * **Results:**
   * **Success:** Commit messages follow the required format.
   * **Failure:** Commit messages violate the standard and the job fails.
