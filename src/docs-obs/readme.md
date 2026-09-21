@@ -12,6 +12,9 @@ Welcome to the documentation for **FOV Software**—a specialized fork of [OBS S
 * **[Architecture](./architecture.md)**
   Detailed breakdown of the core architectural patterns, module design, and integration layers powering multi-track source isolation.
 
+* **[Continuous Integration](./continuous_integration.md)**
+  Overview of the continuous integration workflows, code analysis tools, and automated test suites used for the FOV repository.
+
 * **Doxygen Documentation**
   Comprehensive API reference and low-level source code documentation generated automatically from the codebase.
 

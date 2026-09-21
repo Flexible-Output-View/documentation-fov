@@ -20,6 +20,7 @@
     - [FOV Software Documentation](./docs-obs/readme.md)
       - [Building FOV Software](./docs-obs/building.md)
       - [Architecture](./docs-obs/architecture.md)
+      - [Continuous Integration](./docs-obs/continuous_integration.md)
 - [Research and Development](./r&d.md)
     - [Transcoding Cost and Capacity](./r&d-benchmarks/transcoding%20cost%20and%20capacity/readme.md)
     - [Multi-track Video](./r&d-benchmarks/multi-track%20video/readme.md)

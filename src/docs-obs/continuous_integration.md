@@ -64,5 +64,5 @@ Compiles the project across Linux, Windows, and macOS to verify multi-platform s
 Creates a Linux Flatpak package for deployment and application testing.
 
 * **Triggers:** Runs on pushes to `dev` and `master`.
-* **Runner:** Self-hosted VM.
+* **Runner:** Self-hosted VM (Windows/Linux) and GitHub-hosted runners (macOS).
 * **Results:** Uploads the generated Flatpak file as a GitHub artifact.
