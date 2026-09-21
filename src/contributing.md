@@ -124,16 +124,3 @@ Pull requests (PRs) are **mandatory** for introducing changes into `dev`.
 
 * **Disagreements:** Any disagreements or conflicts within the community will be handled and resolved by **majority decision**.
 * **Constructive Collaboration:** We value respectful, community-driven development and encourage open discussions via GitHub channels.
-
----
-
-## Frequently Asked Questions (Q&A)
-
-* **What is fovapp.live for?**
-  * [fovapp.live](https://fovapp.live) is provided primarily as a **demo environment** to showcase the project capabilities. It does not possess the server capacity to operate as a fully-featured, Twitch-sized production platform. Users must use it responsibly, respect applicable laws, and avoid abusive or unauthorized behavior ("don't do anything stupid with it").
-* **What is the context of this project?**
-  * This project is developed as part of an **EPITECH EIP (Innovative Projects Unit)** curriculum for **Promo 2027, Toulouse**.
-* **Where should I report bugs or request features?**
-  * Please open an issue on the relevant repository or head over to our [GitHub Discussions](https://github.com/orgs/Flexible-Output-View/discussions) page.
-* **Can I use / deploy FOV?**
-  * Yes! You are free to use, fork, modify, and deploy FOV, provided you adhere to the project's licenses: our web stack is licensed under **MIT**, and the OBS fork (`obs-studio-fov`) is licensed under **GPLv2** (meaning any distributed modifications or forks must also remain open-source under GPLv2).
