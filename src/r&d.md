@@ -15,3 +15,4 @@ Below is an index of the research topics, benchmarks, and technical reports cove
 - [Multi-track Video Player Performances](./r&d-benchmarks/multi-track%20video%20player/performances.md)
 - [Deployed Architecture](./r&d-benchmarks/deployed%20architecture/index.html)
 - [Development and Performance](./r&d-benchmarks/development%20and%20performance/index.html)
+- [Media Over QUIC Experiment](./r&d-benchmarks/media%20over%20quic/index.html)
