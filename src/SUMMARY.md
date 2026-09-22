@@ -4,6 +4,7 @@
 - [User Guide](./user_guide.md)
   - [Installing & Running](./user_guide/installation.md)
   - [Start a stream](./user_guide/start_a_stream.md)
+- [Roadmap](./roadmap.md)
 - [Contribution Guidelines & Project Organization](./contributing.md)
 - [Developer Documentation](./developer_docs.md)
   - [FOV Web documentation](./docs-web/readme.md)
@@ -37,4 +38,4 @@
     - [Deployed Architecture](./r&d-benchmarks/deployed%20architecture/readme.md)
     - [Development and Performance](./r&d-benchmarks/development%20and%20performance/readme.md)
     - [Media Over QUIC Experiment](./r&d-benchmarks/media%20over%20quic/readme.md)
-- [Roadmap](./roadmap.md)
+- [What's Next](./whats_next.md)
