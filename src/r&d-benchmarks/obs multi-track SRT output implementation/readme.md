@@ -242,7 +242,7 @@ You must also ensure that the source video dimensions are aligned before attempt
 
 This stream can then be directly received by our video pipeline backend for conversion and broadcasting to viewers.
 
-Consulted Resources:
+## Consulted Resources
 - [TSDuck](https://tsduck.io/)
 - [Introduction to MPEG-TS](https://tsduck.io/docs/mpegts-introduction.pdf)
 - [MPEG transport stream](https://en.wikipedia.org/wiki/MPEG_transport_stream)
