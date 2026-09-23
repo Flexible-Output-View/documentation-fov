@@ -26,7 +26,6 @@ This document applies to all organization repositories and to every team member 
   * [Pull Requests & How to Submit a Change](#pull-requests--how-to-submit-a-change)
   * [Response Time & Review SLA](#response-time--review-sla)
 * **[Governance & Community Guidelines](#governance--community-guidelines)**
-  * [Frequently Asked Questions (Q&A)](#frequently-asked-questions-qa)
 
 ---
 
