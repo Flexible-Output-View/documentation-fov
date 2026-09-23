@@ -75,3 +75,11 @@ This repository contains the complete documentation for the FOV project.
 
 *   📦 **Can I use or deploy FOV?**
     *   Yes! You are free to use, fork, modify, and deploy FOV, provided you adhere to the project's licenses: our web stack is licensed under **MIT**, and the OBS fork (`obs-studio-fov`) is licensed under **GPLv2** (requiring any distributed modifications or forks to remain open-source under GPLv2).
+
+## Showcase
+
+![FOV Software interface showing a scene with two media sources](./fov-software-showcase.png)
+*Using FOV Software (our custom OBS fork) to stream a multi-track scene.*
+
+![FOV Web Platform interface on fovapp.live](./fov-web-showcase.png)
+*Watching the live stream and freely moving/resizing individual video tracks on fovapp.live.*
