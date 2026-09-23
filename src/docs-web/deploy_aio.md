@@ -77,7 +77,7 @@ In addition to environment variables and build arguments, the `docker-compose.ym
 
 While optional and generally not recommended for standard setups, you can modify the default ports or volumes directly within the `docker-compose.yml` file to fit custom infrastructure requirements.
 
-> [!Important] Scaling Ingest Streams
+> [!IMPORTANT] Scaling Ingest Streams
 > You can adjust the port range for stream ingestion (default: `9999-10010`) in your Docker Compose file. Changing this range directly dictates the maximum number of simultaneous, distinct streams your server can handle at the same time.
 
 ---
@@ -113,7 +113,7 @@ With the default configuration, the containers will expose the following service
 * **Frontend Web App:** [http://localhost:4200](http://localhost:4200?utm_source=gemini)
 * **PostgreSQL Database:** `localhost:5432`
 
-> [!Warning]
+> [!WARNING]
 > This configuration binds services directly to your host machine and is **not** recommended for a secure production environment.
 
 ---
@@ -122,7 +122,7 @@ With the default configuration, the containers will expose the following service
 
 For production environments, we recommend running the application stack behind **Nginx Proxy Manager (NPM)**. This ensures traffic is handled securely over standard HTTP/HTTPS ports (`80`/`443`) while isolating internal database and container ports.
 
-> [!Tip] Hardware and Bandwidth Considerations
+> [!TIP] Hardware and Bandwidth Considerations
 > Because this project functions as a video streaming platform, ensure your production server is properly provisioned.
 >
 > **High Network Bandwidth**: Ingesting live video feeds and serving HLS chunks to multiple concurrent viewers consumes significant inbound and outbound network traffic.
@@ -216,7 +216,7 @@ Log into your Nginx Proxy Manager admin panel (at port `81`) and map your domain
   * **Forward Port:** `4000`
   * **SSL:** Request a Let's Encrypt SSL Certificate and enable Force SSL.
 
-> [!Important] Production Behavior Summary
+> [!IMPORTANT] Production Behavior Summary
 > * Public web traffic enters exclusively through Nginx Proxy Manager on ports `80` and `443`.
 > * NPM routes requests internally to containers via the shared `nginx-proxy-network`.
 > * The database (`fov-db`) and local management ports (`4001`, `4201`, `5432`) are safely bound exclusively to `127.0.0.1` and are completely shielded from public exposure.
