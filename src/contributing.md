@@ -17,10 +17,13 @@ This document applies to all organization repositories and to every team member 
   * [GitHub Project Board](#github-project-board)
 * **[Releases](#releases)**
 * **[Contribution & Feature Policy](#contribution--feature-policy)**
+  * [What Will and Won't Be Accepted](#what-will-and-wont-be-accepted)
 * **[Development & Branching Strategy](#development--branching-strategy)**
   * [Git Branch Rules](#git-branch-rules)
+  * [Coding Conventions](#coding-conventions)
   * [Commit Message Format](#commit-message-format)
-  * [Pull Requests](#pull-requests)
+  * [Pull Requests & How to Submit a Change](#pull-requests--how-to-submit-a-change)
+  * [Response Time & Review SLA](#response-time--review-sla)
 * **[Governance & Community Guidelines](#governance--community-guidelines)**
 * **[Frequently Asked Questions (Q&A)](#frequently-asked-questions-qa)**
 
@@ -74,9 +77,16 @@ The FOV core team periodically creates tagged GitHub releases containing stable 
 * **Feature Requests & Questions:** You can discuss potential feature requests or ask questions directly to the team via [GitHub Discussions](https://github.com/orgs/Flexible-Output-View/discussions) before or during implementation.
 * The FOV core team begins evaluating and reviewing contributions starting from the moment a pull request is opened.
 
-### Quality Standards & Right to Reject
-* The FOV core team holds ultimate responsibility for the project's direction, stability, and code health.
-* The team retains the **right to reject any contribution** that does not align with our project standards, code quality benchmarks, or process requirements.
+### What Will and Won't Be Accepted
+* **What Will Be Accepted:**
+  * Well-tested bug fixes and performance improvements.
+  * Clear, modular features that align with the core architectural goals of the FOV ecosystem.
+  * Documentation updates with accurate, clear explanations.
+  * Contributions that successfully pass automated CI checks and peer reviews.
+* **What Won't Be Accepted:**
+  * Out-of-scope architectural rewrites or features introduced without prior discussion or issue alignment.
+  * Code lacking proper documentation, formatting, or test coverage.
+  * Contributions failing automated continuous integration pipelines or introducing unresolved security/stability risks.
 
 ---
 
@@ -91,7 +101,16 @@ Our repository structure relies on two primary long-lived branches alongside fea
 * Create dedicated Git branches for every feature or bug fix (ideally using GitHub's "Create a branch" button directly from your assigned issue).
 * **Cleanup:** Merged branches **must be deleted** once the pull request is closed.
 
-### Commits
+### Coding Conventions
+To maintain a clean and readable codebase across repositories, please adhere to the following baseline conventions:
+* **Language Standards:** Follow established language-specific styles (e.g., standard JavaScript style guidelines for `web-fov`, and clean C practices for `obs-studio-fov`).
+* **Automatic Formatting:** Contributors must use automatic code formatting tools prior to submission:
+  * Use **`clang-format`** for all `obs-studio-fov` C code.
+  * Use **`eslint` or `prettier`** for the frontend and backend codebase in `web-fov`.
+* **Comments & Clarity:** Write self-documenting code and add clear comments for complex logic or business logic blocks.
+  * Use Doxygen comments for `obs-studio-fov`.
+
+### Commit Message Format
 Commit messages must follow a clean, standardized format:
 
 ```text
@@ -109,14 +128,23 @@ Where **PREFIX** is:
 * `TEST`: Adding or updating tests.
 * `MERGE`: Merging a branch via pull request.
 
-### Pull Requests
+### Pull Requests & How to Submit a Change
 Pull requests (PRs) are **mandatory** for introducing changes into `dev`.
+
+#### Step-by-Step Submission Workflow:
+1. **Fork & Branch:** Create a dedicated feature branch off `dev`.
+2. **Implement & Test:** Code your changes following project conventions, apply formatters, and perform local testing.
+3. **Commit:** Commit your changes using the standardized commit message format.
+4. **Open PR:** Submit a Pull Request targeting the `dev` branch, referencing any related issues or discussions.
 
 #### PR Requirements & Review Policy
 * **Mandatory Review:** **All PRs must be reviewed and approved by at least one member of the team** before merging.
 * **Manual & Local Testing:** The FOV team tests every pull request manually and locally to ensure our quality standards are met.
 * **CI Validation:** The automated CI pipeline must complete successfully.
-* **Association:** Every PR must explicitly reference the issue or branch it addresses.
+
+### Response Time & Review SLA
+* As this project is developed as part of our 5th-year Epitech curriculum, the core team is primarily active and working on the repositories during **Thursdays and Fridays**.
+* Review feedback, issue triage, and PR merges are concentrated around these project days. We appreciate your patience outside of these windows!
 
 ---
 
