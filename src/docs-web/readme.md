@@ -17,6 +17,9 @@ Welcome to the documentation for the **FOV Web Stack**. The web platform is comp
 * **[Continuous Integration](./continuous_integration.md)**
   Overview of the CI/CD pipelines, workflows, and automated checks used for the web repository.
 
+* **[Deploying with docker](./deploy_aio.md)**
+  A guide on how to deploy the entire web stack using Docker.
+
 ---
 
 ## Web Platform Architecture Overview

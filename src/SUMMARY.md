@@ -21,6 +21,7 @@
         - [Quick Reference](./docs-web/docs-backend/QUICK_REFERENCE.md)
         - [Changelog](./docs-web/docs-backend/CHANGELOG.md)
       - [Continuous Integration](./docs-web/continuous_integration.md)
+      - [Deploying with docker](./docs-web/deploy_aio.md)
   - [FOV Software Documentation](./docs-obs/readme.md)
     - [Building FOV Software](./docs-obs/building.md)
     - [Architecture](./docs-obs/architecture.md)

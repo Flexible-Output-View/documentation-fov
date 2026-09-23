@@ -21,6 +21,7 @@ Welcome to the FOV Developer Documentation! This section provides comprehensive 
     * [Quick Reference](./docs-web/docs-backend/QUICK_REFERENCE.md)
     * [Changelog](./docs-web/docs-backend/CHANGELOG.md)
   * [Continuous Integration](./docs-web/continuous_integration.md)
+  * [Deploying with docker](./docs-web/deploy_aio.md)
 
 * **[FOV Software Documentation](./docs-obs/index.html)**
   Source code guidelines, building instructions, CI workflows, and core architecture for the custom OBS Studio integration.
