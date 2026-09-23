@@ -17,6 +17,7 @@ This document applies to all organization repositories and to every team member 
   * [GitHub Project Board](#github-project-board)
 * **[Releases](#releases)**
 * **[Contribution & Feature Policy](#contribution--feature-policy)**
+  * [Opening Issues & Bug Reports](#opening-issues--bug-reports)
   * [What Will and Won't Be Accepted](#what-will-and-wont-be-accepted)
 * **[Development & Branching Strategy](#development--branching-strategy)**
   * [Git Branch Rules](#git-branch-rules)
@@ -25,7 +26,7 @@ This document applies to all organization repositories and to every team member 
   * [Pull Requests & How to Submit a Change](#pull-requests--how-to-submit-a-change)
   * [Response Time & Review SLA](#response-time--review-sla)
 * **[Governance & Community Guidelines](#governance--community-guidelines)**
-* **[Frequently Asked Questions (Q&A)](#frequently-asked-questions-qa)**
+  * [Frequently Asked Questions (Q&A)](#frequently-asked-questions-qa)
 
 ---
 
@@ -71,6 +72,12 @@ The FOV core team periodically creates tagged GitHub releases containing stable 
 ---
 
 ## Contribution & Feature Policy
+
+### Opening Issues & Bug Reports
+We strongly encourage users and contributors to open issues on GitHub for bug reports, feature requests, or general feedback. When creating an issue, please adhere to the following guidelines:
+* **Type & Labels:** Properly categorize your issue by selecting the correct issue type and assigning relevant labels.
+* **Precise Description:** Provide a clear and thorough explanation of your request or problem.
+* **Steps to Reproduce:** If you are reporting a bug, always include precise, step-by-step instructions to reproduce the issue, along with relevant error logs, screenshots, or environment details.
 
 ### Feature Submissions & Workflow
 * Contributors are free to develop features or fixes and open a pull request directly whenever they are ready.
