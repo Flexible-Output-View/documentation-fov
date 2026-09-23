@@ -46,6 +46,7 @@ All project code and documentation are hosted under the official [Flexible Outpu
    * **License:** MIT
    * **Description:** Repository hosting the Flexible Output View web stack and platform infrastructure.
 3. **[`documentation-fov`](https://github.com/Flexible-Output-View/documentation-fov)**
+   * **License:** CC BY-SA 4.0
    * **Description:** Public documentation repository containing user guides, developer docs, and `mdBook` source files.
 
 ### Community, Discussions & Feedback
