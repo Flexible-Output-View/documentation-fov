@@ -1,6 +1,6 @@
 # Project Roadmap & Overview
 
-> Date: September 22nd, 2026
+> Updated: September 24th, 2026
 
 ## Introduction
 
@@ -46,6 +46,7 @@ To achieve a professional standard of quality and performance, our development e
 * **Documentation:** Clean up repository README files and establish a centralized, publicly accessible documentation hub.
 * **Desktop Client (OBS):** Implement source selection capabilities to easily show or hide specific output streams.
 * **R&D / Prototyping:** Explore and test cutting-edge technologies (such as Media Over QUIC) to address technical bottlenecks.
+  * Open to contributions
 
 ### 🟡 Medium Priority — October to December 2026
 * **Accounts & Sessions:** Implement user registration and login workflows.
@@ -54,9 +55,14 @@ To achieve a professional standard of quality and performance, our development e
 * **Navigation:** Introduce user profile pages and dedicated user stream spaces.
 * **Quality & Accessibility:** Finalize frontend accessibility compliance for primary user journeys.
 * **Social Features:** Release real-time live chat functionality.
+* **Security:** Vulnerability audit across our project.
+  * Open to contributions (see [#63](https://github.com/Flexible-Output-View/web-fov/issues/63))
 
 ### 🟢 Low Priority — January / February 2027
 * **Advanced Social Features:** Roll out advanced live statistics and deep social interactions.
 * **Recommendation Engine:** Implement personalized content discovery algorithms ("You might also like...").
 * **Industrialization:** Expand automated frontend/backend testing coverage and thoroughly document the codebase.
+  * Open to contributions (see [#62](https://github.com/Flexible-Output-View/web-fov/issues/62) and [#61](https://github.com/Flexible-Output-View/web-fov/issues/61))
 * **Milestone Review:** Conduct final performance benchmarks and polish all technical and user-facing documentation.
+* **Language Localization:** Translate the website and FOV Software UI.
+  * Open to contributions (see [#64](https://github.com/Flexible-Output-View/web-fov/issues/64) and [#28](https://github.com/Flexible-Output-View/obs-studio-fov/issues/28))
