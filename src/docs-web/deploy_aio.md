@@ -21,6 +21,9 @@ At the root of the repository, you will find a `.env.example` file. This file co
 | `DB_PASSWORD` | Secure root password for the PostgreSQL database container. | `your_secure_db_password_here` |
 | `SRT_URL` | Hostname or IP address for SRT video streaming endpoints. | `localhost` |
 | `API_URL` | Full publicly accessible URL pointing to the backend API. | `http://localhost:4000/api` |
+| `JWT_SECRET` | Your JWT secret. | `your_jwt_secret_here` |
+| `JWT_EXPIRES_IN` | The JWT expiration configuration | `7d` |
+
 
 To set up your environment:
 
