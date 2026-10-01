@@ -1,3 +1,11 @@
+---
+name: Bug report
+about: Signaler un bug ou une régression
+title: "[BUG] "
+labels: bug
+assignees: ''
+---
+
 # Bug Report
 
 ## Describe the bug

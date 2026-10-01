@@ -1,3 +1,11 @@
+---
+name: Feature request
+about: Proposer une amélioration ou une nouvelle fonctionnalité
+title: "[FEAT] "
+labels: enhancement
+assignees: ''
+---
+
 # Feature request
 
 ## Description
