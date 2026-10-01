@@ -50,7 +50,6 @@ That doesn't mean the project is dead. We're leaving it in a state where it can 
 
 - **Fork freely.** The license allows it.
 - **Open a pull request** if you want to contribute back. Reviews are best-effort — expect weeks, not days.
-- **Report security issues privately**, following `SECURITY.md`. Don't file public issues.
 - **Want to become a maintainer?** Open an issue titled `Maintainer application` with who you are, what you want to maintain, and how much time you can commit per month.
 
 If we become unreachable and a fork becomes the de-facto upstream, we'd appreciate it if its maintainers state that clearly in their README and keep following the same security process.
