@@ -8,7 +8,7 @@ It helps keep a record of external contributions received, the work carried out,
 
 In the context of this contribution, an external contribution is considered valid when it corresponds to a code modification, a documentation correction, a translation, the addition of tests, a properly documented bug report, or an external code review.
 
-This document presents the **two external contributions received, reviewed, and integrated into the `dev` branch**, as well as the contributors behind them.
+This document presents the **external contributions received, reviewed, and integrated into the `dev` branch**, as well as the contributors behind them.
 
 ---
 
@@ -52,8 +52,27 @@ Pull Request #51 included a modification of the localization file, and the **5 a
 
 ---
 
+### Albéric Flour de Saegher — @albe2
+
+**Project:** `obs-studio-fov`
+**Pull Request:** `#52 — DOC: adding the spanish translation of About.info`
+
+Albéric Flour de Saegher, under the GitHub username **@albe2**, contributed to the `obs-studio-fov` project by adding the Spanish translation of the `About.Info` section.
+
+This contribution followed issue **#28 — FOV about page translation**, which requested localizing the content of `About.Info` into the different languages supported by the application.
+
+The contribution added the Spanish language file `es-ES.ini` and adapted the FOV presentation text into Spanish. The Pull Request consisted of a single commit, `DOC: adding the spanish translation of About.info`, corresponding to **1 addition and 1 deletion**.
+
+Pull Request #52 was then reviewed by **Slymoz**, who self-requested a review, approved the changes with the comment "lgtm", and merged commit `af71499` into the `dev` branch. The Pull Request was successfully merged and closed.
+
+**Thank you to Albéric Flour de Saegher (@albe2) for this contribution and for helping make FOV accessible to Spanish users.**
+
+---
+
 ## Acknowledgements
 
-We thank **Hugo Payet (@SizzleUnrlsd)** and **Maël-Mamadou Diagne (@Mogza)** for their external contributions to the FOV project.
+We thank **Hugo Payet (@SizzleUnrlsd)**, **Maël-Mamadou Diagne (@Mogza)**, and **Albéric Flour de Saegher (@albe2)** for their external contributions to the FOV project.
+
+Their contributions were reviewed, validated, and integrated into the `dev` branch, and directly contribute to the improvement and evolution of the project.
 
 Their contributions were reviewed, validated, and integrated into the `dev` branch, and directly contribute to the improvement and evolution of the project.
