@@ -1,5 +1,7 @@
 # Continuous Integration
 
+> **Last Updated:** October 5th, 2026
+
 To ensure the code quality of the FOV web stack, we use several GitHub Actions workflows and code analysis tools.
 
 This document presents the Continuous Integration (CI) setup used by our repository.
@@ -38,6 +40,17 @@ Runs all frontend tests with coverage.
 * **Triggers:** Pull requests targeting the `main` branch.
 * **Runner:** GitHub-hosted runners.
 * **Results:** Coverage report uploaded as a GitHub artifact.
+
+## Build & Push Images
+
+Builds and publishes Docker container images for both the backend and frontend to GitHub Packages (GHCR) as [packages](https://github.com/orgs/Flexible-Output-View/packages?repo_name=web-fov).
+
+* **Triggers:** Pushes to `main` and `dev` branch.
+* **Runner:** GitHub-hosted runners.
+* **Target:** Authenticates with GHCR and builds/pushes `fov-backend` and `fov-frontend` images tagged with the matching branch/reference name (`${{ github.ref_name }}`).
+* **Results:**
+  * **Success:** Container images are successfully built, tagged, and published to GitHub Packages.
+  * **Failure:** Build errors or authentication/push failures cause the workflow job to fail.
 
 ## Development Deployment
 
