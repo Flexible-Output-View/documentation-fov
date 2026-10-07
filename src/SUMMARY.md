@@ -6,6 +6,7 @@
   - [Start a stream](./user_guide/start_a_stream.md)
 - [Roadmap](./roadmap.md)
 - [Contribution Guidelines & Project Organization](./contributing.md)
+  - [Code of Conduct](./CODE_OF_CONDUCT.md)
 - [Developer Documentation](./developer_docs.md)
   - [FOV Web documentation](./docs-web/readme.md)
       - [Frontend Documentation](./docs-web/docs-frontend/readme.md)
