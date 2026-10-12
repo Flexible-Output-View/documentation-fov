@@ -4,6 +4,7 @@ authors = ["LucasLoustalot", "Slymoz", "RaphxelS"]
 language = "en"
 
 [preprocessor.callouts]
+[preprocessor.katex]
 
 [output.html]
 git-repository-url = "https://github.com/Flexible-Output-View"

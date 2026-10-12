@@ -42,7 +42,9 @@ Download the disk image from the releases page:
 
 ### 2. Run (Installation Optional)
 1. **Mount the DMG:** Double-click the downloaded `.dmg` file to open it.
+
 2. **Run or Move:** Installation is completely optional. You can run the application directly from the mounted disk image, or drag it to your **Applications** folder (or any folder like your Desktop) if you prefer to keep a local copy.
+
 3. **Bypassing the Security Warning:** Because the app is unsigned, macOS will block it on the first launch. If a direct open is blocked, you can authorize it through your system preferences:
    * Try to open the app once (it will display a warning dialog that it cannot be opened).
    * Open your Mac's **System Settings** and go to **Privacy & Security**.
@@ -65,8 +67,10 @@ Download the portable ZIP archive from the releases page:
 
 ### 2. Run (No Installation Required)
 1. **Extract:** Extract the contents of the ZIP archive anywhere on your system (e.g., your Desktop or a custom tools folder).
+
 2. **Launch:** Open the application using the executable located at:
    * `Release\bin\64bit\obs64.exe`
+
 3. **Windows SmartScreen:** Because the binary is unsigned, Windows may display a blue "Windows protected your PC" popup when you first run it.
    * **How to open it:** Click on the **"More info"** link in the warning text, and then click the **"Run anyway"** button that appears at the bottom.
    * You only need to do this the first time you launch the application.
