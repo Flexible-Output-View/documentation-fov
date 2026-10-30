@@ -5,6 +5,7 @@
   - [Installing & Running](./user_guide/installation.md)
   - [Starting a stream](./user_guide/start_a_stream.md)
   - [Configuring streaming settings](./user_guide/stream-settings.md)
+  - [Local multitrack recording](./user_guide/multitrack_recording.md)
 - [Roadmap](./roadmap.md)
 - [Contribution Guidelines & Project Organization](./contributing.md)
   - [Code of Conduct](./CODE_OF_CONDUCT.md)
