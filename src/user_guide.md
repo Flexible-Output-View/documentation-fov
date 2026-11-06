@@ -8,6 +8,9 @@ Welcome to the FOV User Guide! This section provides everything you need to set 
 - **[Installation](./user_guide/installation.md)**
   Step-by-step instructions to download, set up, and configure the custom FOV software required for broadcasting.
 
+- **[Prepare FOV](./user_guide/create-account.md)**
+  Learn how to create an account on the web platform, manage your profile, retrieve your stream key, and configure stream metadata.
+
 - **[Start a Stream](./user_guide/start_a_stream.md)**
   A comprehensive walkthrough covering technical constraints, service configuration, hardware encoder choices, and going live on [fovapp.live](https://fovapp.live) (or your self-hosted instance).
 
