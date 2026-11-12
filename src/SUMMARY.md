@@ -3,6 +3,7 @@
 - [Presentation](./presentation.md)
 - [User Guide](./user_guide.md)
   - [Installing & Running](./user_guide/installation.md)
+  - [Prepare FOV](./user_guide/prepare-fov.md)
   - [Starting a stream](./user_guide/start_a_stream.md)
   - [Configuring streaming settings](./user_guide/stream-settings.md)
   - [Local multitrack recording](./user_guide/multitrack_recording.md)

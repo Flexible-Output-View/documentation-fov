@@ -31,6 +31,7 @@ Because FOV streams sources as independent tracks rather than a single flattened
 Follow these steps to configure your broadcast:
 
 ### 1. Select the Platform Service
+
 1. Launch FOV Software.
 2. Open **Settings** from the main dashboard control interface and select the **Stream** tab in the left sidebar.
 3. Set the **Service** dropdown to `FOV - Multitrack`.
@@ -38,9 +39,11 @@ Follow these steps to configure your broadcast:
 ![Select Service](image.png)
 
 ### 2. Enter Target Parameters
+
 Populate your connection details:
-* **Server URL:** Enter your target platform API endpoint. Use `https://api.fovapp.live` for the public service, or enter your custom backend API URL if self-hosting (see [Developer Documentation](../developer_docs.md)).
-* **Stream Key:** Insert your authentication token string.
+- **Server URL:** Enter your target platform API endpoint. Use `https://api.fovapp.live` for the public service, or enter your custom backend API URL if self-hosting (see [Developer Documentation](../developer_docs.md)).
+
+- **Stream Key:** Insert your stream key (see the [Prepare FOV](./prepare-fov.md) guide for details on how to obtain it).
 
 ![Stream Key Setup](image-1.png)
 
