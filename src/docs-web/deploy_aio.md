@@ -1,6 +1,6 @@
 # Deployment Guide
 
-> **Last Updated:** October 5th, 2026
+> **Last Updated:** November 13, 2026
 
 This guide outlines how to deploy the web application stack using your preferred architecture. Choose the method that best fits your environment, whether you prefer building from source, utilizing pre-built container images via GitHub Packages (GHCR), or running natively without Docker.
 
@@ -78,7 +78,7 @@ services:
     image: ghcr.io/flexible-output-view/fov-backend:main
     restart: unless-stopped
     volumes:
-      - ./backend/media:/var/media
+      - ./backend/media:/var/media:z
     ports:
       - "4000:4000" # API
       - "9999-10010:9999-10010"
@@ -98,7 +98,7 @@ services:
       - SRT_PORT=9999
       - DB_PASSWORD=${DB_PASSWORD}
       - DB_NAME=fovwebdb
-      - FFMPEG_PATH=/usr/local/bin/ffmpeg
+      - FFMPEG_PATH=/usr/bin/ffmpeg
       - MEDIA_ROOT=/var/media
       - SRT_URL=${SRT_URL}
       - API_HOSTNAME=${API_URL}
@@ -125,7 +125,7 @@ services:
     restart: unless-stopped
     volumes:
       - fov-db:/var/lib/postgresql
-      - ./fovwebdb.sql:/docker-entrypoint-initdb.d/init.sql  # NOTE: Ensure you provide the initial sql file, or remove this mount if handling the database separately.
+      - ./fovwebdb.sql:/docker-entrypoint-initdb.d/init.sql:z  # NOTE: Ensure you provide the initial sql file, or remove this mount if handling the database separately.
     networks:
       - backend
 
@@ -346,6 +346,7 @@ These core variables must be defined in your `.env` file for the application to 
 | `JWT_EXPIRES_IN` | Token expiration timeframe. | `7d` |
 | `TWITCH_ID` | *(Deprecated soon)* Twitch API client ID. | `your_twitch_id_here` |
 | `TWITCH_SECRET` | *(Deprecated soon)* Twitch API client secret. | `your_twitch_secret_here` |
+| `FFMPEG_PATH` | **Optionnal** Path to an SRT-enabled FFmpeg binary | `ffmpeg` or `/usr/bin/ffmpeg` or use `/opt/homebrew/opt/ffmpeg-full/bin/ffmpeg` on macOS |
 
 ### Docker Volumes & Storage
 
