@@ -1,30 +1,27 @@
-## Description
+# Description
 
-## Type
+<!-- Provide a clear, concise summary of the changes and why they are needed. -->
 
-What kind of change does this PR introduce?
+## Type of Change
 
-* [ ] Bugfix (`FIX`)
-* [ ] Feature (`ADD`)
-* [ ] Code style update (formatting, local variables)
-* [ ] Refactoring (`REFACT`: no functional changes, no API changes)
-* [ ] Build related changes
-* [ ] CI related changes
-* [ ] Documentation content changes (`DOC`)
-* [ ] Tests (`TEST`)
-* [ ] Other
+What kind of change does this PR introduce? *(Check all that apply)*
 
-## Checklist before merge
+- [ ] **Build / CI (`BUILD` / `CI`):** Changes to build scripts, dependencies, or GitHub Actions workflows
+- [ ] **Documentation (`DOC`):** New pages, content updates, or typo/formatting fixes
+- [ ] **Other:** *(Please describe in the Description above)*
 
-* [ ] Target branch is set to **`dev`** (Direct merges into `main` or `master` are strictly prohibited).
-* [ ] Created from a dedicated feature or bugfix branch.
-* [ ] Code adheres to language-specific guidelines (e.g., standard JS style for `web-fov`, clean C practices for `obs-studio-fov`).
-* [ ] Automatic code formatting applied: **`clang-format`** used for C code / **`eslint` or `prettier**` used for frontend/backend code.
-* [ ] Proper documentation and comments added (including Doxygen comments for C code where applicable).
-* [ ] Commit messages follow the standardized format (`PREFIX: Short description` using prefixes like `ADD`, `FIX`, `DOC`, `REFACT`, etc.).
-* [ ] Local and manual testing has been performed to ensure stability.
-* [ ] Adequate test coverage included (code lacking proper test coverage or failing tests will not be accepted).
-* [ ] Automated CI checks pass successfully without errors or warnings.
-* [ ] Reviewed and approved by at least one member of the FOV core team.
-* [ ] Branch cleanup planned (branch will be deleted after the PR is merged).
+## Checklist Before Merge
 
+### Git & Workflow
+
+- [ ] I have read the [Contribution Documentation](https://flexible-output-view.github.io/documentation-fov/contributing.html).
+- [ ] This PR was created from a dedicated branch.
+- [ ] Commit messages follow the standardized format (`PREFIX: Short description`, e.g., `ADD:`, `FIX:`, `DOC:`, `REFACT:`, etc.).
+- [ ] Linked any relevant issues (e.g., `Fixes #123` or `Closes #456`).
+
+### Quality & Testing
+
+- [ ] Content follows the existing writing style, tone, and Markdown conventions used across the documentation.
+- [ ] Cross-references and relative internal links to related sections/pages are included where appropriate.
+- [ ] New or moved pages are properly registered in `SUMMARY.md` with no broken links or assets.
+- [ ] Changes have been previewed and verified locally using `mdbook serve` (or `mdbook build`).
